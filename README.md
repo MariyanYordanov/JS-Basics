@@ -1,2 +1,3 @@
 # JS-Basics
-JS-First shot 
+JS-First shots
+
