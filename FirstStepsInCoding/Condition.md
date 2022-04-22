@@ -10,7 +10,8 @@
 
 	Create an empty project in Visual Studio Code. We will merge the solutions of all tasks as separate files in this project.
 	This feature is extremely handy when we want to work on multiple projects and quickly switch between them,
-	or we want to logically merge several interrelated projects. This helps us to keep the task solutions separate and keep them to use for
+	or we want to logically merge several interrelated projects. This helps us to keep the task solutions separate and keep them 
+	to use for
 	other tasks or renegotiation.
 	
 ⦁ Run Visual Studio Code
@@ -24,7 +25,8 @@
 						
 	Write a function that prints the text "Hello SoftUni".
 	Guidelines
-⦁ Create a new JavaScript file in the existing folder and name it appropriately. It is recommended to name each script file as the name of the task whose solution it contains.
+⦁ Create a new JavaScript file in the existing folder and name it appropriately. It is recommended to name each script file as the name 
+of the task whose solution it contains.
 ⦁ The contents of the new file will open in the window on the right.
 ⦁ Go to the hello.js file and create the hello() function. You can help yourself with the image below: 
 ⦁ Run the program with: Ctrl + F5. To get the result we need to "call" the function:
@@ -61,7 +63,8 @@ nums1To10();
  
 							Converter: inches to centimetres
 							
-	Write a function that reads a real number from the console and converts it from inches to centimeters. To do this, multiply the inches
+	Write a function that reads a real number from the console and converts it from inches to centimeters. To do this, multiply
+	the inches
 	by 2.54 (1 inch = 2.54 centimeters).
 	Sample input and output
 	input output
@@ -89,7 +92,8 @@ nums1To10();
  
 	How does the example work? The console.log() method allows us to write a sequence of characters that hold the value in round brackets
 	of a variable - ${name} and prints it to the console.
-	Note that for this to work, the text must be surrounded by the ` character, which recognizes plain text and a variable. In order to be recognized
+	Note that for this to work, the text must be surrounded by the ` character, which recognizes plain text and a variable. In order to
+	be recognized
 	a variable as such, it must begin with the $ symbol and be enclosed in curly braces : { } .
 ⦁ Run the program with Ctrl + F5 and test with different input examples. 
 ⦁ To get the result we need to "call" the function and pass it input:
@@ -129,7 +133,8 @@ nums1To10();
 	
 									Pet Shop
 									
-	Write a program that calculates the costs needed to buy food for dogs and cats.  The food is purchased from a pet shop, where a packet of dog food costs £2.50 and a packet of cat food costs £4.
+	Write a program that calculates the costs needed to buy food for dogs and cats.  The food is purchased from a pet shop,
+	where a packet of dog food costs £2.50 and a packet of cat food costs £4.
 	Login
 	2 lines are read from the console:
 ⦁ The number of packs of dog food - an integer in the range [0... 100]
@@ -146,10 +151,10 @@ nums1To10();
 	
 								Landscaping of yards
 								
-	Bojidara has several houses on the Black Sea coast and wants to green the yards of some of them, thus creating a cozy atmosphere. 
-	and comfort of her guests. Write a program that calculates the necessary amount that Bozidara will have to pay
-	to the contractor. The cost per square meter is 7.61 BGN including VAT. Because her yard is quite large, the contractor company offers 18% 
-	discount on the final price.
+	Bojidara has several houses on the Black Sea coast and wants to green the yards of some of them, thus creating a 
+	cozy atmosphere and comfort of her guests. Write a program that calculates the necessary amount that Bozidara will
+	have to pay to the contractor. The cost per square meter is 7.61 BGN including VAT. Because her yard is quite large,
+	the contractor company offers 18% discount on the final price.
 	
 	Login
 	Only one line is read from the console:
