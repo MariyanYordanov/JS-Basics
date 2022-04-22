@@ -11,43 +11,42 @@
 	Create an empty project in Visual Studio Code. We will merge the solutions of all tasks as separate files in this project.
 	This feature is extremely handy when we want to work on multiple projects and quickly switch between them,
 	or we want to logically merge several interrelated projects. This helps us to keep the task solutions separate and keep them 
-	to use for
-	other tasks or renegotiation.
+	to use for other tasks or renegotiation.
 	
-⦁ Run Visual Studio Code
-⦁ Create a new folder that will hold the individual solutions. A dialog will open where you will need to select its directory. It is recommended that you name the folder according to the task topic, example "First-Steps-in-Calculations"
- 
+	Run Visual Studio Code
+	Create a new folder that will hold the individual solutions. A dialog will open where you will need to select its directory. 
+	It is recommended that you name the folder according to the task topic, example "First-Steps-in-Calculations"
 	Then select the folder as your working environment to add the JavaScript solution files of your assignments to it. 
- 
 	The panel on the left will look like this:
  
 						Console program "Hello SoftUni"
 						
 	Write a function that prints the text "Hello SoftUni".
 	Guidelines
-⦁ Create a new JavaScript file in the existing folder and name it appropriately. It is recommended to name each script file as the name 
-of the task whose solution it contains.
-⦁ The contents of the new file will open in the window on the right.
-⦁ Go to the hello.js file and create the hello() function. You can help yourself with the image below: 
-⦁ Run the program with: Ctrl + F5. To get the result we need to "call" the function:
-⦁ We can see the result in the console below:
-⦁ Test the solution of this problem in the online Judge system:
+	Create a new JavaScript file in the existing folder and name it appropriately. It is recommended to name each script file as the name 
+	of the task whose solution it contains.
+	The contents of the new file will open in the window on the right.
+	Go to the hello.js file and create the hello() function. You can help yourself with the image below: 
+	Run the program with: Ctrl + F5. To get the result we need to "call" the function:
+	We can see the result in the console below:
+	Test the solution of this problem in the online Judge system:
+ 
  
 							Numbers from 1 to 10
 							
 	Write a function that prints the numbers 1 to 10 on separate lines on the console.
 	Guidelines
-⦁ Create a new JavaScript file in the existing folder and name it "Nums-1-To-10". Use the body of the "nums1To10()" function:
-function nums1To10() {
-    // Your code goes here
-}
+	Create a new JavaScript file in the existing folder and name it "Nums-1-To-10". Use the body of the "nums1To10()" function:
+	function nums1To10() {
+    	// Your code goes here
+	}
 
-// Call the function to execute the code inside
-nums1To10();
+	// Call the function to execute the code inside
+	nums1To10();
 	
-⦁ Write 10 console.log() commands, one after the other, to print the numbers 1 through 10.
- 
-⦁ Run the program with Ctrl + F5. To get the result you need to "call" the function.	
+	Write 10 console.log() commands, one after the other, to print the numbers 1 through 10.
+	Run the program with Ctrl + F5. To get the result you need to "call" the function.	
+
 
 						Calculate the face of a square
 
