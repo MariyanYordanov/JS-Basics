@@ -4,4 +4,4 @@ function squareArea(){
     console.log(area);
 }
 
-squareArea((["5"]));
+squareArea(["5"]);
