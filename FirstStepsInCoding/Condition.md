@@ -89,11 +89,10 @@
  	Create the variable name and store in it the name passed by (input).
 	Display the output on the console using the following template
  
-	How does the example work? The console.log() method allows us to write a sequence of characters that hold the value in round brackets
-	of a variable - ${name} and prints it to the console.
-	Note that for this to work, the text must be surrounded by the ` character, which recognizes plain text and a variable. In order to
-	be recognized
-	a variable as such, it must begin with the $ symbol and be enclosed in curly braces : { } .
+	How does the example work? The console.log() method allows us to write a sequence of characters that hold the value in round
+	brackets of a variable - ${name} and prints it to the console.
+	Note that for this to work, the text must be surrounded by the ` character, which recognizes plain text and a variable. 
+	In order to be recognized a variable as such, it must begin with the $ symbol and be enclosed in curly braces : { } .
 	Run the program with Ctrl + F5 and test with different input examples. 
 	To get the result we need to "call" the function and pass it input:
 	Test your solution in judge without including the function call.
@@ -113,8 +112,8 @@
  
 								Preparation of projects
 								
-	Write a program that calculates how many hours it will take an architect to prepare the designs of several construction sites.
-	One project takes three hours to complete.
+	Write a program that calculates how many hours it will take an architect to prepare the designs of several construction
+	sites. One project takes three hours to complete.
 	Login
 	2 lines are read from the console:
 	Architect's name - text
