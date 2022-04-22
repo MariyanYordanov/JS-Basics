@@ -8,28 +8,30 @@
 				    
 							Blank Visual Studio Code project
 
-	Create an empty project in Visual Studio Code. We will merge the solutions of all tasks as separate files in this project.
+		Create an empty project in Visual Studio Code. We will merge the solutions of all tasks as separate files in this project.
 	This feature is extremely handy when we want to work on multiple projects and quickly switch between them,
 	or we want to logically merge several interrelated projects. This helps us to keep the task solutions separate and keep them 
 	to use for other tasks or renegotiation.
 	
-	Run Visual Studio Code
-	Create a new folder that will hold the individual solutions. A dialog will open where you will need to select its directory. 
+		Run Visual Studio Code
+		Create a new folder that will hold the individual solutions. 
+	A dialog will open where you will need to select its directory. 
 	It is recommended that you name the folder according to the task topic, example "First-Steps-in-Calculations"
 	Then select the folder as your working environment to add the JavaScript solution files of your assignments to it. 
 	The panel on the left will look like this:
  
-						Console program "Hello SoftUni"
+							Console program "Hello SoftUni"
 						
-	Write a function that prints the text "Hello SoftUni".
+		Write a function that prints the text "Hello SoftUni".
 	Guidelines
-	Create a new JavaScript file in the existing folder and name it appropriately. It is recommended to name each script file as the name 
+	Create a new JavaScript file in the existing folder and name it appropriately.
+	It is recommended to name each script file as the name 
 	of the task whose solution it contains.
 	The contents of the new file will open in the window on the right.
 	Go to the hello.js file and create the hello() function. You can help yourself with the image below: 
 	Run the program with: Ctrl + F5. To get the result we need to "call" the function:
 	We can see the result in the console below:
-	Test the solution of this problem in the online Judge system:
+	Test the solution of this problem in the online Judge system
  
  
 							Numbers from 1 to 10
@@ -55,8 +57,8 @@
 	input output
 	(["5"]) 25
 	Guidelines
-⦁ Take an input (a number in string form) and store it in the variable a, converting it to a numeric type. 
-⦁ Initialize a variable that holds the computed face value obtained by the formula
+	Take an input (a number in string form) and store it in the variable a, converting it to a numeric type. 
+	Initialize a variable that holds the computed face value obtained by the formula
  	a * a and print the result, remembering that to get the result locally you must call the function and pass it input.
 
  
@@ -81,33 +83,31 @@
 								
 	Write a function that receives a person's name and prints "Hello, <name>!", where <name> is the name entered from the console.
 	Guidelines
-	
-⦁ First, create a new JavaScript file in the existing folder and name it appropriately. It is recommended to name each script file,
+	First, create a new JavaScript file in the existing folder and name it appropriately. It is recommended to name each script file,
 	as the name of the task whose solution it contains.
-⦁ The contents of the new file will open in the window on the right
- 
+	The contents of the new file will open in the window on the right
  	Create the variable name and store in it the name passed by (input).
-	Display the output on the console using the following template:
+	Display the output on the console using the following template
  
 	How does the example work? The console.log() method allows us to write a sequence of characters that hold the value in round brackets
 	of a variable - ${name} and prints it to the console.
 	Note that for this to work, the text must be surrounded by the ` character, which recognizes plain text and a variable. In order to
 	be recognized
 	a variable as such, it must begin with the $ symbol and be enclosed in curly braces : { } .
-⦁ Run the program with Ctrl + F5 and test with different input examples. 
-⦁ To get the result we need to "call" the function and pass it input:
-⦁ Test your solution in judge without including the function call.
+	Run the program with Ctrl + F5 and test with different input examples. 
+	To get the result we need to "call" the function and pass it input:
+	Test your solution in judge without including the function call.
 
 							Concatenating text and numbers
 							
  	Write a function that gets: first name, last name, age, and city and prints a message of the following form: 
 	"You are <firstName> <lastName>, a <age>-year-old person from <town>."
 	Guidelines
-⦁ Add another JavaScript file named "Concatenate-Data" to the current Visual Studio Code solution.
-⦁ Accept the input data from the console:
+	Add another JavaScript file named "Concatenate-Data" to the current Visual Studio Code solution.
+	Accept the input data from the console:
  
-⦁ Display the formatted output on the console.
-⦁ Run the program with Ctrl+F5 and test with different input examples. To locally output the result to the console,
+	Display the formatted output on the console.
+	Run the program with Ctrl+F5 and test with different input examples. To locally output the result to the console,
 	you need to call the function and pass input data in the order you expect to receive it
 
  
@@ -115,14 +115,13 @@
 								
 	Write a program that calculates how many hours it will take an architect to prepare the designs of several construction sites.
 	One project takes three hours to complete.
-	
 	Login
 	2 lines are read from the console:
-⦁ Architect's name - text
-⦁ Number of projects to prepare - integer in the range [0 ... 100]
+	Architect's name - text
+	Number of projects to prepare - integer in the range [0 ... 100]
 	Output
 	On the console is printed:
-⦁ "The architect {name of architect} will need {needed hours} hours to complete {number of projects} project/s."
+	"The architect {name of architect} will need {needed hours} hours to complete {number of projects} project/s."
 	Sample input and output
 	Input Output Input Output
 	["George",
@@ -136,8 +135,8 @@
 	where a packet of dog food costs £2.50 and a packet of cat food costs £4.
 	Login
 	2 lines are read from the console:
-⦁ The number of packs of dog food - an integer in the range [0... 100]
-⦁ The number of cat food packs - integer in the range [0... 100]
+	The number of packs of dog food - an integer in the range [0... 100]
+	The number of cat food packs - integer in the range [0... 100]
 	Output
 	The console prints: 
 	"{final sum} en."
@@ -157,11 +156,11 @@
 	
 	Login
 	Only one line is read from the console:
-⦁ Square meters to be landscaped - real number in the range [0.00 ... 10000.00]
+	Square meters to be landscaped - real number in the range [0.00 ... 10000.00]
 	Output
 	Two lines are printed on the console:
-⦁ "The final price is: {final service price} lv."
-⦁ "The discount is: {discount} lv."
+	"The final price is: {final service price} lv."
+	"The discount is: {discount} lv."
 	Sample input and output
 	Input Output Explanations
 	["550"]
