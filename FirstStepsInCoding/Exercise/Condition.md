@@ -55,7 +55,7 @@
 	2. Calculate the interest for 1 month. 11.40 BGN / 12 months = 0.95 BGN.
 	3. The total amount is. + 3 * 0.95 BGN. = 202.85 lv.
 	
-									Required literature
+									Vacation Books List
 									
 	There are a number of books on Joro's required reading list for summer vacation.
 	Since Joro prefers to play outside with friends, your task is to help him calculate
