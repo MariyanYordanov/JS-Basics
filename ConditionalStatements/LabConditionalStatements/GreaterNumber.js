@@ -1,10 +1,11 @@
-function oddOrEven(token){
-    let number = Number(token[0]);
-    if (number % 2 == 0) {
-        console.log("even");
+function greaterNumber(token){
+    let firstNumber = Number(token[0]);
+    let secondNumber = Number(token[1]);
+    if (firstNumber > secondNumber) {
+        console.log(firstNumber)
     } else {
-        console.log("odd");
+        console.log(secondNumber)
     }
 }
 
-oddOrEven(["3"]);
+greaterNumber(["5","3"]);
