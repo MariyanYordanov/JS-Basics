@@ -35,7 +35,7 @@
 								
 	Write a program that calculates how much you will receive at the end of a deposit period at a given interest rate.
 	Use the following formula: 
-	amount = amount deposited + deposit period * ((amount deposited * annual interest rate ) / 12)
+	amount = amount deposited + deposit period * ((amount deposited * annual interest rate / 100) / 12)
 	Login
 	3 lines are read from the console:
 	Amount deposited - a real number in the range [100.00 ... 10000.00]
