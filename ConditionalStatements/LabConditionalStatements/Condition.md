@@ -92,14 +92,10 @@
 	If the shape is square: the next line reads a fractional number - the length of its side
 	If the figure is a rectangle: the next two lines read two fractional numbers - the lengths of its sides
 	If the figure is a circle: the next line reads one fractional number - the radius of the circle
-	If the figure is a triangle: the next two lines read two fractional numbers - the length of its side and the length of the height to it
-	Round the result to 3 decimal places. 
+	If the figure is a triangle: the next two lines read two fractional numbers - the length of its side and the length of the height 
+	to it.Round the result to 3 decimal places. 
+	
 	Sample input and output
 	input             output   input                     output  input            output    input                     output
 	(["square", "5"]) 25.000   (["rectangle","7","2.5"]) 17.500  (["circle","6"]) 113.097   (["triangle","4.5","20"]) 45.000
 	
-
-
-
-
-"20"]) 45.000
