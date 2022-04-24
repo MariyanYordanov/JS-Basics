@@ -3,19 +3,20 @@
 			
 #### Converter: USD to BGN
 								
-	Write a function to convert US dollars (USD) to Bulgarian levs (BGN). Use a fixed rate between USD and BGN: 1 USD = 1.79549 BGN.
+	Write a function to convert US dollars (USD) to Bulgarian levs (BGN). 
+	Use a fixed rate between USD and BGN: 1 USD = 1.79549 BGN.
 	Sample input and output
 
-
-		| Input      |  Output   |
-		| :-------:  | :------:  |
-		| (["22"])   | 39.50078  |
-		| (["100"])  | 179.549   |
-		| (["12.5"]) | 22.443625 |
+| Input      |  Output   |
+| :--------  | :-------  |
+| (["22"])   | 39.50078  |
+| (["100"])  | 179.549   |
+| (["12.5"]) | 22.443625 |
 		
 *Guidelines*
 
-	Create the variable usd that accepts as input from the console a number in string form and convert it to numeric type.
+	Create the variable usd that accepts as input from the console a number in string form and 
+	convert it to numeric type.
 	Calculate the conversion of US dollars to Bulgarian leva.
 	Print the console output.
  
@@ -23,9 +24,12 @@
 							
 	Write a program that reads an angle in radians (a decimal number) and converts it to degrees. 
 	Use the formula: degree = radian * 180 / π. The number π in Java programs is available through Math.PI.
-	Sample input and output
-	input output input output
-	(["3.1416"]) 180.0004209182994 (["6.2832"]) 360.0008418365988
+	
+| Input          | Output             |
+| :--------      | :-----------       |
+| (["3.1416"])   | 180.0004209182994  |
+| (["6.2832"])   | 360.0008418365988  |
+
 
 *Guidelines*
 
@@ -36,8 +40,8 @@
  
  #### Deposit Calculator
 								
-	Write a program that calculates how much you will receive at the end of a deposit period at a given interest rate.
-	Use the following formula: 
+	Write a program that calculates how much you will receive at the end of a deposit period at
+	a given interest rate.Use the following formula: 
 	amount = amount deposited + deposit period * ((amount deposited * annual interest rate / 100) / 12)
 	Login
 	3 lines are read from the console:
@@ -47,10 +51,12 @@
 	Output
 	Print the amount at the end of the term on the console.
 	
-	Input      			Output
-	["200 ","3 ","5.7 "]    	202.85     
-	
-	Explanations
+| Input                    | Output |
+| :------------------      | :----- |
+| (["200 ","3 ","5.7 "])   | 202.85 |
+
+*Explanations*
+
 	1. Calculate the accumulated interest: 200 * 0.057 (5.7%) = 11.40 BGN.
 	2. Calculate the interest for 1 month. 11.40 BGN / 12 months = 0.95 BGN.
 	3. The total amount is. + 3 * 0.95 BGN. = 202.85 lv.
@@ -67,11 +73,13 @@
 	Number of days to read the book - integer in the range [1...1000]
 	Output
 	Print on the console the number of hours Joro has to spend reading each day.
+
+| Input                | Output |
+| :------------------  | :----- |
+| (["212","20","2"])   | 5.3    |
 	
-	Input  - ["212","20","2"] 
-	Output - 5.3
-	
-	Explanations
+*Explanations*
+
 	Total reading time: 212 pages / 20 pages per hour = 10.6 hours total
 	Hours required per day: 10.6 hours / 2 days = 5.3 hours per day
 
@@ -97,10 +105,12 @@
 	Print on the console how much money Annie will need to pay her bill.
 	Sample input and output
 
-	Input  - ["2","3","4","25"]
-	Output - 28.5
-	
-	Comment
+| Input                | Output |
+| :------------------  | :----- |
+| (["2","3","4","25"]) | 28.5   |
+
+*Comment*
+
 	Price of the chemical packages => 2 * 5.80 = 11.60 BGN.
 	Price of the marker packs => 3 * 7.20 = 21.60 lv.
 	Price of detergent => 4 * 1.20 = 4.80 BGN
@@ -128,11 +138,12 @@
 	Output
 	To print one line on the console:
 	"{sum of all costs}"
-	Sample input and output
-
-	Input  - ["10","11","4","8"]
-	Output - 727.09
 	
+| Input                 | Output |
+| :-------------------  | :----- |
+| (["10","11","4","8"]) | 727.09 |
+
+
 *Comment*
 
 	Amount for nylon: (10 + 2) * 1.50 = 18 lv.
@@ -159,9 +170,11 @@
 	Number of vegetarian menus - integer in the range [0 ... 99]
 	Output
 	Print one line on the console: "{order price}"
+		
+| Input           | Output |
+| :-------------- | :----- |
+| (["2","4","3"]) | 116.2  |
 	
-	Input  - ["2","4","3"]
-	Output - 116.2
 	
 *Explanations*
 
@@ -188,8 +201,10 @@
 	Exit
 	Print on the console how much Jesse's expenses would be if he started playing basketball.
 	
-	Input  - ["365"]
-	Output - 811.76
+| Input      | Output |
+| :--------- | :----- |
+| (["365"])  | 811.76 |
+	
 	
 *Explanations*
 
@@ -218,11 +233,13 @@
 	Output
 	Print a number on the console:
 	the liters of water the aquarium will collect.
+		
+| Input                    | Output    |
+| :----------------------- | :-------- |
+| (["85","75","47","17"])  | 248.68875 |
 	
-	Input  - ["85","75","47","17"]
-	Output - 248.68875
 	
-*-Explanations*
+*Explanations*
 
 	Aquarium volume: 85 * 75 * 47 = 299625 cm3
 	volume in litres: 299625 * 0.001 or 299625 / 1000 => 299.625 litres
