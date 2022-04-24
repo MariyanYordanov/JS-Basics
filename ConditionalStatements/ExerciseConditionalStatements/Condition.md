@@ -1,9 +1,9 @@
-								# Exercise: Conditional constructions
+# Exercise: Conditional constructions
 								
 						Exercise problems for the course "Fundamentals of Programming" @ SoftUni.
 								https://judge.softuni.bg/Contests/Index/2402#0
 								
-								#### Summation of seconds 
+#### Summation of seconds 
 									
 	Three sports athletes finish in some number of seconds (between 1 and 50). 
 	Write a function that takes three arguments, seconds, and calculates their summed times in the format "minutes:seconds". 
@@ -28,8 +28,8 @@
 	Once you know how many minutes and seconds the total is, you need to print them in the correct format (minutes : seconds),
 	if the seconds are less than 10 you need to print 0 before the seconds, otherwise just print the result in the given format.
 	To do this, do a check (if). For printing you can use place holder.
-
-								#### Bonus points
+	
+#### Bonus points
 									
 	Given an integer, the starting number of points. Bonus points are added to it according to the rules described below. 
 	Write a function that calculates the bonus points the number receives and the total number of points (the number + the bonus).
@@ -41,11 +41,16 @@
 	-For an even number + 1 point.
 	-For a number ending in 5 + 2 pts.
 
-		Input       Output    Input       Output    Input       Output 
-		(["20"])    6         (["175"])   37        (["2703"])  270.3
-			    26                    212	                2973.3
-		    
+		Input       Output    
+		(["20"])    6         
+			    26        
+		(["175"])   37
+			    212
+		(["2703"])  270.3 
+			    2973.3
+			    
 	Guidelines
+	
 	Convert your string input to a number.
 	Create a new variable in which you will calculate your accumulated bonus points, giving it a starting value of 0.0.
 	Do an if-else-if statement for the first three checks to check the size of the number and calculate the bonus.
@@ -59,7 +64,7 @@
 	Print the results in two lines. On the first line the accumulated bonus and on the second line the final number 
 	you will find by adding the starting number of points and the bonus.
 	
-				 				#### Time + 15 minutes
+#### Time + 15 minutes
 									
 	Write a function that gets the hour and minutes of a 24-hour day and calculates what the hour will be in 15 minutes.
 	Print the result in hours:minutes format. The hours are always between 0 and 23 and the minutes are always between 0 and 59.
@@ -74,9 +79,9 @@
 	(["12", "49"]) 13:04
 	
 	
-									## Sample exam problems
+## Sample exam problems
 									
-										####Toy shop
+#### Toy shop
 										
 	Petya has a toy shop. She receives a large order that she has to fill. With the money she will earn she wants to go on a trip. 
 	Toy prices:
