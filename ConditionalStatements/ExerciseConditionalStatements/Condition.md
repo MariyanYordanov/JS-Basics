@@ -1,6 +1,5 @@
 # Exercise: Conditional constructions
 								
-	Exercise problems for the course "Fundamentals of Programming" @ SoftUni https://judge.softuni.bg/Contests/Index/2402#0
 								
 #### Summation of seconds 
 									
@@ -14,7 +13,8 @@
 		(["22", "7","34"])   1:03
 		(["50","50","49"])   2:29
 		
-	Guidelines
+*Guidelines*
+	
 	Convert the resulting seconds of strings into numbers.
 	Create a new variable to store the sum of the seconds of the three competitors.
  	Once you have found the sum of the seconds you need to convert them into minutes and seconds 
@@ -50,7 +50,7 @@
 		(["2703"])  270.3 
 			    2973.3
 			    
-	Guidelines
+*Guidelines*
 	
 	Convert your string input to a number.
 	Create a new variable in which you will calculate your accumulated bonus points, giving it a starting value of 0.0.
