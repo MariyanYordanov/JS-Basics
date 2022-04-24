@@ -1,23 +1,25 @@
-								Getting started in programming
+# Getting started in programming
 								
-				Problems for in-class and homework exercises for the course "Fundamentals of Programming" @ SoftUni.
-						Test your solutions in the judge system at the following link:
-					https://judge.softuni.org/Contests/2400/First-Steps-In-Coding-Exercise
-					
-								Converter: USD to BGN
+			
+#### Converter: USD to BGN
 								
 	Write a function to convert US dollars (USD) to Bulgarian levs (BGN). Use a fixed rate between USD and BGN: 1 USD = 1.79549 BGN.
 	Sample input and output
-	
-	Input Output Input Output
-	(["22"]) 39.50078 (["100"]) 179.549 (["12.5"]) 22.443625
 
-		Guidelines
+
+		| Input      |  Output   |
+		| :-------:  | :------:  |
+		| (["22"])   | 39.50078  |
+		| (["100"])  | 179.549   |
+		| (["12.5"]) | 22.443625 |
+		
+*Guidelines*
+
 	Create the variable usd that accepts as input from the console a number in string form and convert it to numeric type.
 	Calculate the conversion of US dollars to Bulgarian leva.
 	Print the console output.
  
-							Converter: from radians to degrees
+#### Converter: from radians to degrees
 							
 	Write a program that reads an angle in radians (a decimal number) and converts it to degrees. 
 	Use the formula: degree = radian * 180 / π. The number π in Java programs is available through Math.PI.
@@ -25,13 +27,14 @@
 	input output input output
 	(["3.1416"]) 180.0004209182994 (["6.2832"]) 360.0008418365988
 
-	Guidelines
+*Guidelines*
+
 	Take the input data (radians) and convert it to numeric type
 	Create a new variable in which you will do the conversion from radians to degrees,
 	knowing the formula for the calculation. Print the resulting degrees
 	
  
- 								Deposit Calculator
+ #### Deposit Calculator
 								
 	Write a program that calculates how much you will receive at the end of a deposit period at a given interest rate.
 	Use the following formula: 
@@ -41,12 +44,9 @@
 	Amount deposited - a real number in the range [100.00 ... 10000.00]
 	Deposit period (in months) - integer in the range [1...12]
 	Annual interest rate - real number in the range [0.00 ...100.00]
-	
 	Output
 	Print the amount at the end of the term on the console.
 	
-	Sample input and output
-
 	Input      			Output
 	["200 ","3 ","5.7 "]    	202.85     
 	
@@ -55,7 +55,7 @@
 	2. Calculate the interest for 1 month. 11.40 BGN / 12 months = 0.95 BGN.
 	3. The total amount is. + 3 * 0.95 BGN. = 202.85 lv.
 	
-									Vacation Books List
+#### Vacation Books List
 									
 	There are a number of books on Joro's required reading list for summer vacation.
 	Since Joro prefers to play outside with friends, your task is to help him calculate
@@ -75,9 +75,10 @@
 	Total reading time: 212 pages / 20 pages per hour = 10.6 hours total
 	Hours required per day: 10.6 hours / 2 days = 5.3 hours per day
 
-								Sample exam problems
+# Sample exam problems
 								
-								Study materials
+#### Study materials
+
 	The school year has already started and the person in charge of the 10B class,
 	Annie, needs to buy a certain number of packets of pens, packets of markers, and board cleaner. 
 	She is a regular customer of a bookstore, so there is a discount for her that represents some
@@ -108,7 +109,7 @@
 	Price with discount = 38.00 - (38.00 * 0.25) = 28.50 BGN
 
 
-								Repainting
+#### Repainting
 								
 	Rumen wants to repaint the living room and has hired craftsmen for this purpose.
 	Write a program that calculates the cost of the renovation, given the following prices:
@@ -132,7 +133,8 @@
 	Input  - ["10","11","4","8"]
 	Output - 727.09
 	
-	Comment
+*Comment*
+
 	Amount for nylon: (10 + 2) * 1.50 = 18 lv.
 	Amount for paint.
 	Amount for thinner: 4 * 5.00 = 20.00 lv.
@@ -141,7 +143,7 @@
 	Amount for masters: (213.85 * 30%) * 8 = 513.24 BGN.
 	Final amount: 213.85 + 513.24 = 727.09 BGN.
 	
-									Food delivery
+#### Food delivery
 									
 	The restaurant opens its doors and offers several menus at discounted prices: 
 	Chicken menu - BGN 10.35. 
@@ -161,7 +163,8 @@
 	Input  - ["2","4","3"]
 	Output - 116.2
 	
-	Explanations
+*Explanations*
+
 	Price for the chicken menus: 2 pieces * 10.35 = 20.70
 	Price for fish menus: 4 pieces * 12.40 = 49.60
 	Price for vegetarian menus: 3 pieces * 8.15 = 24.45
@@ -170,7 +173,7 @@
 	Delivery price: 2.50 (subject to condition)
 	Total order price: 94.75 + 18.95 + 2.50 = 116.20
 
-									Basketball equipment
+#### Basketball equipment
 									
 	Jesse decides he wants to play basketball, but he needs equipment to practice. 
 	Write a program that calculates what costs Jesse will have if he starts practicing,
@@ -188,7 +191,8 @@
 	Input  - ["365"]
 	Output - 811.76
 	
-	Explanations
+*Explanations*
+
 	Price per year: 365
 	Basketball sneakers price: 365 - 40% = 219
 	Basketball team price: 219 - 20% = 175.20
@@ -196,7 +200,7 @@
 	Price of basketball accessories: 1 / 5 of 43.80 = 8.76
 	Total price for the equipment: 365 + 219 + 175.20 + 43.80 + 8.76 = 811.76
 
-									Aquarium
+#### Aquarium
 									
 	For his birthday, Lubomir received an aquarium in the shape of a parallelepiped. 
 	At first we read from the console in separate rows its dimensions - length, width 
@@ -218,7 +222,8 @@
 	Input  - ["85","75","47","17"]
 	Output - 248.68875
 	
-	Explanations
+*-Explanations*
+
 	Aquarium volume: 85 * 75 * 47 = 299625 cm3
 	volume in litres: 299625 * 0.001 or 299625 / 1000 => 299.625 litres
 	space occupied: 17% = 0.17
