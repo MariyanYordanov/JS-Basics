@@ -7,4 +7,4 @@ function landsaping(token){
     console.log(`The discount is: ${discount.toFixed(2)} lv.`);
 }
 
-landsaping(["151"]);
+landsaping(["150"]);
