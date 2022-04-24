@@ -1,7 +1,6 @@
 # Exercise: Conditional constructions
 								
-						Exercise problems for the course "Fundamentals of Programming" @ SoftUni.
-								https://judge.softuni.bg/Contests/Index/2402#0
+	Exercise problems for the course "Fundamentals of Programming" @ SoftUni https://judge.softuni.bg/Contests/Index/2402#0
 								
 #### Summation of seconds 
 									
