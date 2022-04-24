@@ -111,4 +111,30 @@
 	
 	The result should be formatted to the second decimal place.
 
+	Input                                  Output
+	(["40.8","20","25","30","50","10"])    Yes! 418.20 lv left.
+	(["320","8","2","5","5","1"])          Not enough money! 238.73 lv needed.
 	
+*Explanations*
+	
+	First input
+	Sum: 20 * 2.60 + 25 * 3 + 30 * 4.10 + 50 * 8.20 + 10 * 2 = 680 lv.
+	Number of toys: 20 + 25 + 30 + 50 + 10 = 135
+	135 > 50 => 25% discount; 25% of 680 = 170 BGN discount
+	Final price.
+	Rent: 10% of 510 BGN. = 51 BGN.
+	Profit: 510 - 51 = 459 lv. 
+	459 > 40.8 => 459 - 40.8 = 418.20 lv. left
+	
+	Second input
+	Sum: 8 * 2.60 + 2 * 3 + 5 * 4.10 + 5 * 8.20 + 1 * 2 = 90.3 lv.
+	Number of toys: 8 + 2 + 5 + 5 + 1 = 21
+	21 < 50 => no discount 
+	Rent: 10% of 90.3 = 9.03 lv.
+	Profit: 90.3 - 9.03 = 81.27 lv.
+	81.27 < 320 => 320 - 81.27 = 238.73 BGN not enough
+
+
+
+
+
