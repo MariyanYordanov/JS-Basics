@@ -21,7 +21,6 @@ function toyShop(token){
     } else {
         console.log(`Not enough money! ${(tripPrice - result).toFixed(2)} lv needed.`);
     }
-    
 }
 
 toyShop((["320","8","2","5","5","1"]));
