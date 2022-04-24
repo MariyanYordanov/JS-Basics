@@ -1,4 +1,4 @@
-# Exercise: Conditional constructions
+# Exercise: Conditional statements
 								
 								
 #### Summation of seconds 
@@ -7,11 +7,11 @@
 	Write a function that takes three arguments, seconds, and calculates their summed times in the format "minutes:seconds". 
 	The seconds are to be output with leading zero (2 "02", 7 "07", 35 "35"). 
 	
-		Input                Output 
-	
-		(["35","45","44"])   2:04
-		(["22", "7","34"])   1:03
-		(["50","50","49"])   2:29
+| Input                | Output    |
+| :------------------- | :-------- |
+| (["35","45","44"])   | 2:04      |
+| (["22", "7","34"])   | 1:03      |
+| (["50","50","49"])   | 2:29      |
 		
 *Guidelines*
 	
@@ -39,17 +39,15 @@
 	Additional bonus points (awarded separately from previous bonus points):
 	-For an even number + 1 point.
 	-For a number ending in 5 + 2 pts.
-
-		Input       Output    
-		
-		(["20"])    6         
-			    26 
-			    
-		(["175"])   37
-			    212
-			    
-		(["2703"])  270.3 
-			    2973.3
+	
+| Input     |   Output |    
+| :-------  | :--------|
+| (["20"])  | 6        |    
+| 	    | 26       | 
+| (["175"]) | 37       | 
+| 	    | 212      | 
+| (["2703"])| 270.3    | 
+| 	    | 2973.3   | 
 			    
 *Guidelines*
 	
@@ -72,13 +70,13 @@
 	Print the result in hours:minutes format. The hours are always between 0 and 23 and the minutes are always between 0 and 59.
 	The hours are written in one or two digits. Minutes are always written in two digits, with a leading zero where necessary. 
 	
-		Input          Output 
-		
-		(["1", "46"])   2:01               
-		(["0", "01"])   0:16
-		(["23", "59"])  0:14
-		(["11", "08"]) 11:23
-		(["12", "49"]) 13:04
+| Input         | Output  |
+| :------------ | :------ |
+| (["1", "46"]) |  2:01   |             
+| (["0", "01"]) |  0:16   |
+| (["23", "59"])|  0:14   |
+| (["11", "08"])| 11:23   |
+| (["12", "49"])| 13:04   |
 	
 	
 ## Sample exam problems
