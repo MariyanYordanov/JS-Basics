@@ -1,13 +1,13 @@
 function salary(token){
     let openTabs = Number(token[0]);
     let salary = Number(token[1]);
-    for (let index = 0; index < openTabs; index++) {
+    for (let index = 2; index <= token.length; index++) {
         let tab = token[index];
-        if (tab == "Facebook") {
+        if (tab === "Facebook") {
             salary -= 150;
-        } else if (tab == "Instagram") {
+        } else if (tab === "Instagram") {
             salary -= 100;
-        } else if (tab == "Reddit") {
+        } else if (tab === "Reddit") {
             salary -= 50;
         }
 
@@ -17,11 +17,15 @@ function salary(token){
         } 
     }
 
-    console.log(salary);
+    console.log(Math.round(salary));
 }
 
-salary(["3",
-"500",
-"Github.com",
-"Stackoverflow.com",
-"softuni.bg"]);
+salary(["10",
+"750",
+"Facebook",
+"Dev.bg",
+"Instagram",
+"Facebook",
+"Reddit",
+"Facebook",
+"Facebook"]);
