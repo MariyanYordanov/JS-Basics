@@ -14,7 +14,7 @@ function climbers(token){
             Montblanc += peopleInGroup;
         } else if ( peopleInGroup > 12 && peopleInGroup <= 25) {
             Kilimanjaro += peopleInGroup;
-        } else if ( peopleInGroup > 26 && peopleInGroup <= 40) {
+        } else if ( peopleInGroup > 25 && peopleInGroup <= 40) {
             K2 += peopleInGroup;
         } else if ( peopleInGroup > 40 ) {
             Everest += peopleInGroup;
@@ -30,9 +30,14 @@ function climbers(token){
     console.log(`${(Everest / totalNumberPeople * 100).toFixed(2)}%`);
 }
 
-climbers(["5",
-"25",
-"41",
-"31",
-"250",
-"6"]);
+climbers(["10",
+"10",
+"5",
+"1",
+"100",
+"12",
+"26",
+"17",
+"37",
+"40",
+"78"]);
