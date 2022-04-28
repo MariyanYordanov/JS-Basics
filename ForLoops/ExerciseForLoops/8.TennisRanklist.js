@@ -1,17 +1,32 @@
 function ranklist(token){
     let tournament = Number(token[0]);
     let startPoints = Number(token[1]);
-    let totalPoints = startPoints;
-    for (let index = 3; index < tournament; index++) {
+    let finalPoints = startPoints;
+    let wins = 0.0;
+    
+    for (let index = 2; index <= token.length; index++) {
         let stage = token[index];
         if (stage === "W") {
-            totalPoints += 2000;
+            finalPoints += 2000;
+            wins++;
         } else if (stage === "F") {
-            totalPoints += 1200;
+            finalPoints += 1200;
         } else if (stage === "SF") {
-            totalPoints += 720;
+            finalPoints += 720;
         }
     }
+
+    let averagePoints = (finalPoints - startPoints) / tournament;
+    let percentage = wins / tournament * 100;
+
+    console.log(`Final points: ${finalPoints}`);
+    console.log(`Average points: ${Math.floor(averagePoints)}`);
+    console.log(`${percentage.toFixed(2)}%`);
 }
 
-ranklist(["5","1400","F","SF","W","W","SF"]);
+ranklist(["4",
+"750",
+"SF",
+"W",
+"SF",
+"W"]);
